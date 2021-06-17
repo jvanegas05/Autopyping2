@@ -1,3 +1,4 @@
+      <script>
          const typedTextSpan = document.querySelector(".typed-text");
          const cursorSpan = document.querySelector(".cursor");
 
@@ -42,3 +43,4 @@
         document.addEventListener("DOMContentloaded", function(){
             if (textArray.length) setTimeout(type,newTextDelay + 250);
         });  
+    </script>
